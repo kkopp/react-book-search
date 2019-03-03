@@ -8,7 +8,7 @@ function Jumbotron() {
         <div className="row h-100 align-items-center">
           <div className="col-12 text-center">
             <h1 className="font-weight-light">Google Book Search</h1>
-            <p className="lead">Search for your next great read!</p>
+            <p className="lead">Find your next great read!</p>
           </div>
         </div>
       </div>

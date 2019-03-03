@@ -3,9 +3,9 @@ import Jumbotron from "../components/Jumbotron";
 
 function NoMatch() {
   return (
-    <div class="container">
-      <div class="row">
-        <div class="col">
+    <div className="container">
+      <div className="row">
+        <div className="col">
           <Jumbotron>
             <h1>404 Page Not Found</h1>
             <h1>
