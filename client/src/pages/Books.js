@@ -19,20 +19,6 @@ class Books extends Component {
 
   }
 
-  loadBooks = () => {
-    API.getBooks()
-      .then(res =>
-        this.setState({ books: res.data, title: "", authors: "", description: "", image: "", infoLink: "", previewLink: "" })
-      )
-      .catch(err => console.log(err));
-  };
-
-  // deleteBook = id => {
-  //   API.deleteBook(id)
-  //     .then(res => this.loadBooks())
-  //     .catch(err => console.log(err));
-  // };
-
   handleInputChange = event => {
     const { name, value } = event.target;
     this.setState({
@@ -45,7 +31,7 @@ class Books extends Component {
     event.preventDefault();
     API.searchBooks(this.state.title)
       .then(res => {
-        this.setState({books:res.data.items});
+        this.setState({books: res.data.items});
         // console.log(
         //   res.data.items[0].volumeInfo.title, 
         //   res.data.items[0].volumeInfo.authors, 

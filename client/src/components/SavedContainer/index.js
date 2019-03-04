@@ -56,7 +56,7 @@ class SavedContainer extends Component {
                 <span>
                   <a href={object.previewLink}><span>Preview Link </span></a>|
                         <a href={object.infoLink}><span> Info Link </span></a>|
-                  {/* <span onClick={() => deleteBook(id)}> Delete</span> */}
+                  <span> Delete</span>
                 </span>
               </div>
             </>
