@@ -38,9 +38,3 @@ function SearchContainer(props) {
 
 export default SearchContainer;
 
-//items.volumeInfo.title
-//items.volumeInfo.authors
-//items.volumeInfo.description
-//items.volumeInfo.imageLinks.thumbnail
-//items.volumeInfo.previewLink
-//items.volumeInfo.infoLink
